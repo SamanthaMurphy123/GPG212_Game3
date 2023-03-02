@@ -7,7 +7,7 @@ public class SceneChanger : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene("NameOfYourSceneToLoad");
+            SceneManager.LoadScene("EndScene2");
         }
     }
 }
